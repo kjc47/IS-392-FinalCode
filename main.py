@@ -5,13 +5,13 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score
 
-# Corrected data path to include the actual CSV file name
+# IMPORTANT TO UPDATE FILE PATH BELOW
 data_path = r'C:\Users\badke\Downloads\archive\diabetes_data_upload.csv' 
 
-# Load the dataset
+
 df = pd.read_csv(data_path)
 
-# Encode categorical variables
+
 label_encoders = {}
 for column in df.columns:
     if df[column].dtype == 'object':
@@ -19,13 +19,13 @@ for column in df.columns:
         df[column] = le.fit_transform(df[column])
         label_encoders[column] = le
 
-# Feature Scaling for Age if it is a numeric column in your dataset
+
 if 'Age' in df.columns:
     scaler = StandardScaler()
     df['Age'] = scaler.fit_transform(df[['Age']])
 
-# Splitting the data into features and target
-X = df.drop('class', axis=1)  # Ensure 'class' is the name of your target variable
+
+X = df.drop('class', axis=1)  
 y = df['class']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
