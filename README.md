@@ -33,11 +33,11 @@ and
  ```bash
  source env/bin/activate 
 ```
-## downlaod all the reuqirments
+## Download all the requirments
 ```bash
 pip install -r requirements.txt
 ```
-## download python to ur vscode and run it
+## Download Python to your source code editor  and run it
 
 ```bash
 python main.py
