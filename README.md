@@ -20,7 +20,7 @@ To set up and run this project locally, follow these steps:
 To get started with the project, either fork this repository or clone it directly using:
 '''bash
 
-git clone <repository-url>
+git clone https://github.com/kjc47/IS-392-FinalCode
 '''
 
 ##create a viurtual env and activate it
