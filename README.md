@@ -1,6 +1,4 @@
-# Project Title
-
-Describe your project here.
+# IS 392 Datamining Project
 
 ## Dataset
 
@@ -18,12 +16,12 @@ To set up and run this project locally, follow these steps:
 ### Clone the Repository
 
 To get started with the project, either fork this repository or clone it directly using:
-'''bash
+```bash
 
 git clone https://github.com/kjc47/IS-392-FinalCode
-'''
+```
 
-##create a viurtual env and activate it
+### Create a viurtual env and activate it
 ```bash
 python -m venv env
 ```
