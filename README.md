@@ -46,3 +46,5 @@ or
 ```bash
 python3 main.py
 ```
+## IMPORTANT 
+make sure to update the data path in line 9 to your exact file path.

@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score
 
 # Corrected data path to include the actual CSV file name
-data_path = r'C:\Users\badke\Downloads\archive\diabetes_data_upload.csv'  # Change 'your_data_file.csv' to the actual file name
+data_path = r'C:\Users\badke\Downloads\archive\diabetes_data_upload.csv' 
 
 # Load the dataset
 df = pd.read_csv(data_path)
