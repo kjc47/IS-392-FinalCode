@@ -6,8 +6,8 @@ This project uses the "Early Stage Diabetes Risk Prediction Dataset" from Kaggle
 
 1. **Visit the Dataset Page**: Go to [Early Stage Diabetes Risk Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/ishandutta/early-stage-diabetes-risk-prediction-dataset?resource=download).
 2. **Create an Account or Log In**: If you do not already have a Kaggle account, you will need to create one. If you have an account, simply log in.
-3. **Download the Dataset**: Once logged in, you can download the dataset. Click on the "Download" button. This will download a ZIP file containing the dataset.
-4. **Extract and Move the Dataset**: Extract the downloaded ZIP file and move the CSV file to your "Downloads" folder.
+3. **Download the Dataset**: Once logged in, you can download the dataset. Click on the "Download" button. 
+4. **Extract the Dataset**: Extract the downloaded ZIP file and move the CSV file to your "Downloads" folder.
 
 ## Setting Up the Project Environment
 
@@ -46,5 +46,4 @@ or
 ```bash
 python3 main.py
 ```
-## IMPORTANT 
-make sure to update the data path in line 11 in main.py to your exact file path.
+
