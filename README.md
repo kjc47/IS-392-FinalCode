@@ -47,4 +47,4 @@ or
 python3 main.py
 ```
 ## IMPORTANT 
-make sure to update the data path in line 9 in main.py to your exact file path.
+make sure to update the data path in line 11 in main.py to your exact file path.
