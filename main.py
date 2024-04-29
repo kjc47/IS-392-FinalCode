@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report, accuracy_score
 from xgboost import XGBClassifier
 
 # Load the dataset
-data_path = r'C:\Users\badke\Downloads\archive\diabetes_data_upload.csv' 
+data_path = 'https://raw.githubusercontent.com/kjc47/IS-392-FinalCode/main/diabetes_data_upload.csv'
 df = pd.read_csv(data_path)
 
 
